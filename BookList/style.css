@@ -1,0 +1,24 @@
+body{
+    background: aliceblue;
+}
+
+#btn{
+    color: rgb(145, 34, 34);
+    background: rgb(255, 255, 255);
+    border-color: blue;
+}
+
+
+.success, .error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+  }
+
+  .success {
+    background: green;
+  }
+
+  .error {
+    background: red;
+  }
