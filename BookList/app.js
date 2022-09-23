@@ -13,7 +13,7 @@ UI.prototype.addBookToList = function(book) {
     const list = document.getElementById('book-list');
     // Create tr element
     const row = document.createElement('tr');
-    console.log(row);
+    
     // Insert cols
     row.innerHTML = `
         <td>${book.title}</td>
